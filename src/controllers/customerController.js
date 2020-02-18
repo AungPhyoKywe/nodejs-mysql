@@ -56,6 +56,7 @@ controller.edit = (req , res)=>{
             res.render('editCustomer',{
 
                 data:customers
+
             });
         });
 
