@@ -15,4 +15,5 @@ workflows:
     test:
 
       override:
-        -phpunit tests
+        - phpunit tests
+        - phpunit src/app.js
