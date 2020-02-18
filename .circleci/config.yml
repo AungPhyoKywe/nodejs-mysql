@@ -11,9 +11,3 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-
-    test:
-
-      override:
-        - phpunit tests
-        - phpunit src/app.js
